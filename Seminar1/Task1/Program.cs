@@ -6,17 +6,14 @@
 // a = 9, b = -3 => да
 // a = -3, b = 9 => нет
 
-Console.WriteLine("Введите первое целое число");
+Console.WriteLine("Введите целое число a");
 int num1 = Convert.ToInt32(Console.ReadLine());
-Console.WriteLine("Введите второе целое число");
+Console.WriteLine("Введите целое число b");
+
 int num2 = Convert.ToInt32(Console.ReadLine());
 
-if (num1 == num2 * num2)
-{
-    Console.WriteLine("Первое число является квадратом второго");
-}
-else
-{
-   Console.WriteLine("Первое число не является квадратом второго");
-}
+string result = num1 == num2 * num2 ? "да" : "нет";
+
+Console.WriteLine($"a = {num1}, b = {num2} => {result}");
+
 
