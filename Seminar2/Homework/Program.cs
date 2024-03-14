@@ -1,5 +1,8 @@
-﻿using System;
+﻿//Напишите программу, которая принимает на вход число и проверяет, 
+//кратно ли оно одновременно 7 и 23.
 
+
+using System;
 class Program
 {
     static void Main(string[] args)
