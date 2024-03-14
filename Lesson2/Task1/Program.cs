@@ -1,3 +1,2 @@
-﻿//Лекция 2. Упр 1.
+﻿//Task1;
 
-Console.Writeline("Hello Word")
